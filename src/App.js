@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import { Modal } from "./components/Modal";
-import { GlobalStyle } from "./globalStyles";
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { Modal } from './components/Modal';
+import { GlobalStyle } from './globalStyles';
 
 const Container = styled.div`
   display: flex;
   padding: 20px 50px;
   background-color: lightgray;
-  width: 100%;
+  width:100%;
 `;
 
 const Button = styled.button`
@@ -25,7 +25,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
-    setShowModal((prev) => !prev);
+    setShowModal(prev => !prev);
   };
 
   return (
