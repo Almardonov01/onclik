@@ -7,7 +7,7 @@ const Background = styled.div`
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 450px;
+  top: 380px;
   display: flex;
 `;
 
